@@ -9,6 +9,10 @@ Requirements
 Chef 0.10.10 or greater and Ohai 0.6.12 or greater are required due to
 the use of `platform_family`.
 
+Chef 10.14.0 or greater is recommended to make use of the
+`client_fork`
+[configuration option](http://tickets.opscode.com/browse/CHEF-3104).
+
 ## Platforms
 
 The following platforms are tested directly under test-kitchen; see
@@ -16,6 +20,8 @@ The following platforms are tested directly under test-kitchen; see
 
 * Ubuntu 10.04, 12.04
 * CentOS 5.9, 6.4
+* Debian 6.0.7
+* SUSE (SLES) 11-sp2
 
 The following platforms are known to work:
 
